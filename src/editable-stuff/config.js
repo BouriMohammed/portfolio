@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Mohammed",
   middleName: "",
   lastName: "Bouri",
-  message: " I’m Data Scientist Engineer. ",
+  message: " Data Scientist | Data Analyst | ML,DL, NLP Expert. ",
   icons: [
     {
       image: "fa-github",
@@ -47,10 +47,10 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/hashirshoaeb.png"),
+  imageLink: require("../editable-stuff/profile.png"),
   imageSize: 375,
   message:
-    "My name is Hashir Shoaib. I’m a graduate of 2020 from National University of Sciences and Technology at Islamabad with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
+    "I'm a data science engineer. I did a lot of projects using python and R, and their libraries. I'm up to work in any project concerning data. I can get your tasks done in a perfect timing and in the best way. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of Data Science. “ Without data you're just another person with an opinion. ”. This quote can explain the values of data in our life. this makes me want to work more on the data and to be more creative to make a difference.",
   resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
 };
 
@@ -97,13 +97,10 @@ const skills = {
   heading: "Skills",
   hardSkills: [
     { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "Machine Learning", value: 85 },
+    { name: "Deep Learning", value: 85 },
+    { name: "NLP", value: 80 },
+    { name: "VBA-EXCEL", value: 80 },
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 80 },
@@ -111,7 +108,6 @@ const skills = {
     { name: "Positivity", value: 75 },
     { name: "Adaptability", value: 85 },
     { name: "Problem Solving", value: 75 },
-    { name: "Empathy", value: 90 },
     { name: "Organization", value: 70 },
     { name: "Creativity", value: 90 },
   ],
@@ -122,23 +118,23 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+    "I'm currently looking for full-time Machine Learning or Deep Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+  email: "bourii.mohammed@gmail.com",
 };
 
 const experiences = {
-  show: false,
+  show: true,
   heading: "Experiences",
   data: [
     {
-      role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
+      role: 'Data Scientist',// Here Add Company Name
+      companylogo: require('../assets/img/Henceforth.png'),
+      date: 'March 2021 – Present',
     },
     {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
+      role: 'Data Scientist',
+      companylogo: require('../assets/img/pca.png'),
+      date: 'June 2020 – September 2020',
     },
   ]
 }
