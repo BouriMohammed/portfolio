@@ -30,7 +30,7 @@ const Navigation = React.forwardRef((props, ref) => {
       ? setIsTop(false)
       : setIsTop(true);
   }, [navBottom, navbarDimensions, ref, scrollPosition]);
-
+  const style = {fontStyle: 'italic', fontFamily: 'Brush Script MT, Brush Script Std, cursive'};
   return (
     <Navbar
       ref={navbarMenuRef}
@@ -40,7 +40,7 @@ const Navigation = React.forwardRef((props, ref) => {
       expand="lg"
     >
       <Navbar.Brand className="brand" href={process.env.PUBLIC_URL + "/#home"}>
-        {`<${mainBody.firstName} />`}
+      <span style = {style} >{`Mohammed Bouri`}</span> 
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" className="toggler" />
       <Navbar.Collapse id="basic-navbar-nav">
