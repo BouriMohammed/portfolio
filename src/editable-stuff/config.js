@@ -64,7 +64,7 @@ const repos = {
   heading: "Recent Projects",
   gitHubUsername: "BouriMohammed", //i.e."johnDoe12Gh"
   reposLength: 4,
-  specificRepos: [],
+  specificRepos: ['Arabic-Sentiment-Analysis','Twitter-Sentiment-Analysis-Using-BI-LSTM-Model','Churn_Prediction','Financial-Analysis-Apple-share-price'],
 };
 
 // Leadership SECTION
