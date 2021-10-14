@@ -9,27 +9,23 @@ const mainBody = {
   firstName: "Mohammed",
   middleName: "",
   lastName: "Bouri",
-  message: " Passionate about changing the world with technology. ",
+  message: " I’m Data Scientist Engineer. ",
   icons: [
     {
       image: "fa-github",
-      url: "https://github.com/hashirshoaeb",
+      url: "https://github.com/BouriMohammed/",
     },
     {
       image: "fa-facebook",
-      url: "https://www.facebook.com/hashirshoaeb",
+      url: "https://www.facebook.com/mohammed.bourii/",
     },
     {
       image: "fa-instagram",
-      url: "https://www.instagram.com/hashirshoaeb/",
+      url: "https://www.instagram.com/bourii.mohammed/",
     },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/hashirshoaeb/",
-    },
-    {
-      image: "fa-twitter",
-      url: "https://www.twitter.com/hashirshoaeb/",
+      url: "https://www.linkedin.com/in/mohammed-bouri98/",
     },
   ],
 };
