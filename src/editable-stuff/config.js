@@ -50,7 +50,7 @@ const about = {
   imageLink: require("../editable-stuff/profile.png"),
   imageSize: 375,
   message:
-    "I'm a data science engineer. I did a lot of projects using python and R, and their libraries. I'm up to work in any project concerning data. I can get your tasks done in a perfect timing and in the best way. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of Data Science. “ Without data you're just another person with an opinion. ”. This quote can explain the values of data in our life. this makes me want to work more on the data and to be more creative to make a difference.",
+    "I'm a data science engineer. I did a lot of projects using python and R, and their libraries. I'm up to work in any project concerning data. I can get your tasks done in a perfect timing and in the best way. <br>I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of Data Science. “ Without data you're just another person with an opinion. ”. This quote can explain the values of data in our life. this makes me want to work more on the data and to be more creative to make a difference.",
   resume: "https://drive.google.com/file/d/1WbpuvcDyPMzIkZyA7JlSwqlJP__GDwWQ/view?usp=sharing",
 };
 
@@ -97,6 +97,7 @@ const skills = {
   heading: "Skills",
   hardSkills: [
     { name: "Python", value: 90 },
+    { name: "R", value: 90 },
     { name: "Machine Learning", value: 85 },
     { name: "Deep Learning", value: 85 },
     { name: "NLP", value: 80 },
